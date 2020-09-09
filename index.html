@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINE Web Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-theme.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://static.line-scdn.net/line_lp/173237d10d9/img/logo160629.png">
+        </div>
+        <ul>
+            <li>下載</li>
+            <li>註冊及移動帳號</li>
+            <li>周邊應用程式</li>
+            <li>遊戲</li>
+            <li>LINE STORE</li>
+            <li>LINE Pay</li>
+            <li>LINE HUB</li>
+        </ul>
+        <form>
+            <select>
+                <option value="chinese-tw">中文(繁體)</option>
+                <option value="english">English</option>
+                <option value="japanese">日本語</option>
+            </select>
+        </form>
+    </nav>
+
+    <!--<div class="slider">
+        <div><img src="https://d.line-scdn.net/stf/line-lp/PC_Game_Play_tw_123123.png" alt="error"></div>
+        <div><img src="https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_zh_TW.png" alt="error"></div>
+        <div><img src="https://d.line-scdn.net/stf/line-lp/PC_LINETV_1234.png" alt="error"></div>
+    </div>-->
+
+    <ul class="slider">
+        <li><img src="https://d.line-scdn.net/stf/line-lp/PC_Game_Play_tw_123123.png" alt="error"></li>
+        <li><img src="https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_zh_TW.png" alt="error"></li>
+        <li><img src="https://d.line-scdn.net/stf/line-lp/PC_LINETV_1234.png" alt="error"></li>
+    </ul>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script>
+        $('.slider').slick();
+    </script>
+</body>
+
+</html>
