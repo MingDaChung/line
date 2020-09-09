@@ -1,0 +1,6 @@
+https://static.line-scdn.net/line_lp/173237d10d9/img/logo160629.png    <logo>
+
+
+https://d.line-scdn.net/stf/line-lp/PC_Game_Play_tw_123123.png  <slider>
+https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_zh_TW.png
+https://d.line-scdn.net/stf/line-lp/PC_LINETV_1234.png
