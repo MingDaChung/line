@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LINE Web Practice</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -33,24 +33,26 @@
         </form>
     </nav>
 
-    <!--<div class="slider">
+    <div class="slider">
         <div><img src="https://d.line-scdn.net/stf/line-lp/PC_Game_Play_tw_123123.png" alt="error"></div>
         <div><img src="https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_zh_TW.png" alt="error"></div>
         <div><img src="https://d.line-scdn.net/stf/line-lp/PC_LINETV_1234.png" alt="error"></div>
-    </div>-->
-
-    <ul class="slider">
-        <li><img src="https://d.line-scdn.net/stf/line-lp/PC_Game_Play_tw_123123.png" alt="error"></li>
-        <li><img src="https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_zh_TW.png" alt="error"></li>
-        <li><img src="https://d.line-scdn.net/stf/line-lp/PC_LINETV_1234.png" alt="error"></li>
-    </ul>
-
+    </div>
     <script type="text/javascript" src="app.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick.min.js"></script>
-    <script>
-        $('.slider').slick();
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
     </script>
 </body>
 
