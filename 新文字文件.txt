@@ -4,3 +4,8 @@ https://static.line-scdn.net/line_lp/173237d10d9/img/logo160629.png    <logo>
 https://d.line-scdn.net/stf/line-lp/PC_Game_Play_tw_123123.png  <slider>
 https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_zh_TW.png
 https://d.line-scdn.net/stf/line-lp/PC_LINETV_1234.png
+
+1.
+2.
+3.https://d.line-scdn.net/stf/lp/character%20update_0516_Img_PNG/2_LINE_Store_PNG/04_zh_hant.png
+4.https://d.line-scdn.net/stf/line-lp/zh_hant_2016_04.png
