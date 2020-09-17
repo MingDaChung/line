@@ -6,7 +6,6 @@
 
 body {
     font-family: sans-serif;
-    background-color: aqua;
 }
 
 .container {
@@ -49,10 +48,6 @@ nav li {
     font-size: 14px;
     text-decoration: none;
     color: #444;
-    /*border-right-style: solid;
-    border-width: 1px;
-    border-color: gray;
-    padding-right: 5px;*/
 }
 
 form {
@@ -77,61 +72,36 @@ select {
     object-fit: cover;
 }
 
-.content {
+.content{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     height: 350vh;
-    display: grid;
-    grid-template-columns: 1fr 0% 1fr;
-    grid-template-rows: 1fr 3% 1fr 3% 1fr 3% 1fr;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-h1{
-    padding-top: 65px;
-    font-size: 52px;
+.content-img{
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20vh;
 }
 
 .content-text{
-    font-size: 20px;
-    line-height: 1.2;
+    flex: 0 0 50%;
+    display: flex;
+    margin-bottom: 20vh;
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 10vh;
+    font-size: 18px;
 }
 
-.text1 {
-    grid-column: 3/4;
-    grid-row: 1/2;
+h1{
+    font-size: 52px;
 }
 
-.text2 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-
-.text3 {
-    grid-column: 3/4;
-    grid-row: 5/6;
-}
-
-.text4 {
-    grid-column: 1/2;
-    grid-row: 7/8;
-}
-
-.img1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.img2 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-
-.img3 {
-    grid-column: 1/2;
-    grid-row: 5/6;
-}
-
-.img4 {
-    grid-column: 2/3;
-    grid-row: 7/8;
+.back{
+    align-items: flex-end;
 }
